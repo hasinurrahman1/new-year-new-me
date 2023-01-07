@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header section */
+.header {
+    background-image: url('../images/banner/banner3.png');
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 808px;
+    left: 0px;
+    top: 0px;
+}
+
+.header-content {
+    width: 400px;
+    height: 250px;
+    padding-top: 220px;
+    margin-left: 820px;
+    text-align: right;
+}
+
+.header-title {
+    font-weight: 700;
+    font-size: 50px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.header-subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.header-btn {
+    font-weight: 600;
+    font-size: 20px;
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    border: 0;
+    color: #005FAC;
+}
+
+/* Previous Section */
+.section {
+    display: flex;
+    gap: 70px;
+    width: 1000px;
+    height: 720px;
+    padding-top: 130px;
+    margin: 0 auto;
+}
+
+img {
+    width: 600px;
+    height: 700px;
+}
+
+.section-container {
+    width: 380px;
+    height: 400px;
+}
+
+.section-title {
+    width: 290px;
+    height: 70px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+    margin-top: 270px;
+    margin-bottom: 30px;
+}
+
+.section-subtitle {
+    width: 350px;
+    height: 100px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+}
+
+.section-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.fa-solid {
+    color: green;
+}
+
+/* Plan Section */
+.section-content {
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    color: #151414;
+    margin-top: 100px;
+}
+
+.skill img {
+    width: 90px;
+    height: 90px;
+}
+
+.skill-container {
+    display: flex;
+    width: 1000px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.skill {
+    width: 300px;
+}
+
+.skill-title {
+    width: 270px;
+    height: 35px;
+    font-weight: 600;
+    font-size: 25px;
+    color: #151414;
+}
+
+.skill-description {
+    width: 177px;
+    height: 29px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #737272;
+}
+
+/* Gradient Section */
+.gradient-title {
+    width: 1140px;
+    height: 300px;
+    background-image: url(../images/gradient1.png);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+.gradient-title img {
+    height: 300px;
+    display: block;
+    position: absolute;
+}
+
+.gradient-content {
+    width: 450px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 25px;
+    padding: 40px 0 0 50px;
+    position: relative;
+}
+
+.gradient-btn {
+    width: 160px;
+    height: 50px;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 0;
+    margin-top: 20px;
+}
+
+/* Footer Part */
+.footer {
+    display: flex;
+    gap: 300px;
+    width: 1600px;
+    margin-top: 100px;
+    padding: 100px 200px 0 105px;
+    background: #151414;
+}
+
+.footer-container {
+    width: 485px;
+    height: 317px;
+}
+
+.footer-title {
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #F8F8F8;
+}
+
+.footer-content {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+
+.footer-e {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.footer-p {
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+
+.footer-icon {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-icon a img {
+    width: 50px;
+    height: 50px;
+}
+
+.footer-sub {
+    width: 325px;
+    height: 204px;
+    color: #FFFFFF;
+}
+
+.sub-title {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+input {
+    width: 250px;
+    height: 35px;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    background-color: #151414;
+    color: #FFFFFF;
+}
+::placeholder{
+    color: #FFFFFF;
+}
+
+.sub-btn {
+    display: block;
+    width: 120px;
+    height: 45px;
+    font-weight: 400;
+    font-size: 16px;
+    border: 0;
+    border-radius: 5px;
+    background-color: blue;
+    color: #FFFFFF;
+}

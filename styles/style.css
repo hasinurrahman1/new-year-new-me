@@ -138,16 +138,11 @@ img {
 .gradient-title {
     width: 1140px;
     height: 300px;
-    background-image: url(../images/gradient1.png);
     background-repeat: no-repeat;
+    background: linear-gradient(90deg, #ffff00 7%, rgba(0, 95, 172, 0) 100%),  url(../images/watch.png);
+    border-radius: 10px;
     margin: 0 auto;
     margin-top: 70px;
-}
-
-.gradient-title img {
-    height: 300px;
-    display: block;
-    position: absolute;
 }
 
 .gradient-content {
@@ -156,17 +151,18 @@ img {
     font-weight: 700;
     font-size: 25px;
     padding: 40px 0 0 50px;
-    position: relative;
+    color: #151414;
 }
 
 .gradient-btn {
     width: 160px;
     height: 50px;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 16px;
     border-radius: 5px;
     border: 0;
     margin-top: 20px;
+    color:#151414;
 }
 
 /* Footer Part */
